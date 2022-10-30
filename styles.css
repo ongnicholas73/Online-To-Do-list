@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;600;700&display=swap');
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-family: Teko;
+    font-size: 80px;
+}
+
+.input-button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+ .all-content .input-button > .form-control{
+    width: 50%;
+    display: flex;
+
+}
+
+.all-content{
+    display: flex;
+    flex-direction: column;
+}
