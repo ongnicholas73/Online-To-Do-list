@@ -37,6 +37,11 @@ document.querySelector(".btn.btn-outline-secondary").addEventListener("click", f
     }
     );
 
+document.querySelector(".btn-delete").addEventListener("click", function (e) {
+        localStorage.clear()
+        window.location.reload()
+    } 
+    );
 
 
 
