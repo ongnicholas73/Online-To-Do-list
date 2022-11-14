@@ -29,7 +29,7 @@ document.querySelector(".btn.btn-outline-secondary").addEventListener("click", f
     listItem.classList.add("list-group-item")
     document.querySelector(".list-group").append(listItem)
     //localStorage.getItem(listItem)
-    var initData = localStorage.getItem("listItem")
+    var initData = localStorage.getItem("listItem") || ""
     var newData = initData + ',' + todoText
     console.log(newData)
     
