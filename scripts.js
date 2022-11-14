@@ -1,4 +1,13 @@
-var data = localStorage.getItem("listItem").split(",");
+var list = localStorage.getItem("listItem")
+
+var data;
+
+if (list) {
+    data = list.split(",");
+} else {
+    data = ""
+}
+
 console.log(data)
 
 for (let i = 0; i < data.length; i++) {
